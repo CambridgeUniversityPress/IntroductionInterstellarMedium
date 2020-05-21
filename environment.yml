@@ -1,9 +1,5 @@
-name: example-environment
+name: /anaconda/envs
 channels:
   - conda-forge
-dependencies:
-  - python
-  - pip
-  - numpy
-  - matplotlib
-
+  - defaults
+prefix: /anaconda/envs
