@@ -3,7 +3,7 @@
 Recreate most of the figures from the book and starting points for some of the questions.
 
 #### Chapter 1
-* [Figure 1.1](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=bremsstrahlung.ipynb)
+* [Figure 1.1](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=bremsstrahlung.ipynb){:target="_blank"}
 * Figure 1.2
 * Figure 1.3
 
