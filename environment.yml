@@ -1,5 +1,13 @@
-name: /anaconda/envs
+name: example-environment
 channels:
   - conda-forge
-  - defaults
-prefix: /anaconda/envs
+dependencies:
+  - numpy
+  - psutil
+  - toolz
+  - matplotlib
+  - dill
+  - pandas
+  - partd
+  - bokeh
+  - dask
