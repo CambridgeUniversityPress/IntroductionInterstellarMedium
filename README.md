@@ -12,9 +12,13 @@ Use the command or control key when clicking on a link to open it in a new tab.
 
 #### Chapter 2
 * Figure 2.1 ([tex](observations/radiation_schematic.tex)) ([pdf](observations/radiation_schematic.pdf))
-* Figure 2.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=observations/atmospheric_absorption.ipynb)) ([pdf](observations/atmos_absorption.pdf))
+* Figure 2.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=observations/atmos_absorption.ipynb)) ([pdf](observations/atmos_absorption.pdf))
 
 #### Chapter 3
 * Figure 3.1
 * Figure 3.2
+* Figure 3.3
+* Figure 3.4
+* Figure 3.5
+* Figure 3.6
 
