@@ -10,7 +10,7 @@ Most figures are created in python notebooks that will open in an interactive br
 
 #### Chapter 2
 * Figure 2.1
-* [Figure 2.2](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master/atmospheric_absorption.ipynb)
+* [Figure 2.2](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=atmospheric_absorption.ipynb)
 
 #### Chapter 3
 * Figure 3.1
