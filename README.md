@@ -7,12 +7,12 @@ A remaining few were created in [keynote](https://www.apple.com/keynote/) and ar
 Use the command or control key when clicking on a link to open it in a new tab.
 
 #### Chapter 1
-* [Figure 1.1](introduction/allsky.pdf)
-* [Figure 1.2](introduction/collision_time.tex)
+* Figure 1.1 ([pdf](introduction/allsky.pdf))
+* Figure 1.2 ([tex](introduction/collision_time.tex))([pdf](introduction/collision_time.pdf))
 
 #### Chapter 2
-* Figure 2.1
-* [Figure 2.2](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=atmospheric_absorption.ipynb)
+* Figure 2.1 ([tex](observations/radiation_schematic.tex))([pdf](observations/radiation_schematic.pdf))
+* [Figure 2.2](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=observations/atmospheric_absorption.ipynb)
 
 #### Chapter 3
 * Figure 3.1
