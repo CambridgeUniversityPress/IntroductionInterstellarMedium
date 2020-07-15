@@ -1,0 +1,51 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% schematic of emission and absorption
+% through a slab and change of I_nu
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+
+\begin{document}
+
+\tikzset{
+	photon/.style={->, snake=snake, line after snake=1mm}
+	}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% grey box for slab
+	\path[fill=gray!50] (2,1) rectangle (4,4);
+	\draw[thick, <->] (2,0.5) -- (4,0.5);
+	%\node[align=center] at (3,0.2) {\large{\it ds}};
+	\node[align=center] at (3,0.2) {\it ds};
+
+	% Draw the photons
+	% passes through
+	\draw[photon] (0,1.5) -- (6,1.5);
+	% absorbed
+	\draw[photon] (0,2.1) -- (2.8,2.1);
+	%\draw[photon] (0,1.4) -- (3.5,1.4);
+	% scattered
+	\draw[photon] (0,3.0) -- (2.5,3.0);
+	\draw[photon] (2.6,3.0) -- (5.0,4.5);
+	% emitted
+	\draw[photon] (3.4,2.6) -- (6,2.6);
+	%\draw[photon] (2.8,1.9) -- (6,1.9);
+
+	% labels
+	%\node[align=left] at (0.8,0.5) {\large{\bf $I_\nu$}};
+	%\node[align=right] at (5.5,0.5) {\large{\bf $I_\nu + dI_\nu$}};
+	\node[align=left] at (0.8,0.5) {\bf $I_\nu$};
+	\node[align=right] at (5.5,0.5) {\bf $I_\nu + dI_\nu$};
+
+\end{tikzpicture}
+
+\end{document} 

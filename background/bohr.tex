@@ -1,0 +1,79 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HI energy level diagram
+%
+% 13.6eV ionization potential
+% Bohr 1/n**2 levels
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+
+\begin{document}
+
+\tikzset{
+	level/.style={thick},
+	trans/.style={thick, dashed,->,shorten >=2pt,shorten <=2pt,>=stealth},
+	photon/.style={thick, ->, snake=snake, line after snake=1mm}
+	}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% Draw the energy levels
+	\draw[level] (12.0,0) -- (2,0) node[left] {$n=1$};
+	\draw[level] (12.0,10.2) -- (2,10.2) node[left] {$2$};
+	\draw[level] (12.0,12.09) -- (2,12.09) node[left] {$3$};
+	\draw[level] (12.0,12.74) -- (2,12.74) node[left] {$4$};
+	\draw[level] (12.0,13.06) -- (2,13.06);
+	\draw[level] (12.0,13.22) -- (2,13.22);
+	\draw[level] (12.0,13.32) -- (2,13.32);
+	\draw[level] (12.0,13.39) -- (2,13.39);
+	\draw[level] (12.0,13.43) -- (2,13.43);
+	\draw[level] (12.0,13.46) -- (2,13.46);
+	\draw[level] (12.0,13.49) -- (2,13.49);
+	\draw[level] (12.0,13.51) -- (2,13.51);
+	% fudge and put the IP at 13.52 to show convergence
+	\draw[level] (12.0,13.52) -- (2,13.52) node[left] {$\infty$};
+
+	% grey box for continuum
+	\path[fill=gray!20] (2,13.52) rectangle (12.0,14.5);
+	\node[align=left] at (9.0,14.2) {\large{\bf continuum}};
+
+	% Draw scale bar on right side
+	\draw[thick, ->] (13.0,0.0) -- (13.0,14.5);
+	\draw[level] (12.9,0.0) -- (13.1,0.0) node[right] {$E=0$};
+	\draw[level] (12.9,10.2) -- (13.1,10.2) node[right] {$10.2$eV};
+	\draw[level] (12.9,13.52) -- (13.1,13.52) node[right] {$13.6$eV};
+
+	% Draw the transitions
+	\draw[trans] (3.4,0.0) -- (3.4,14.4);
+	\draw[trans] (10.0,10.2) -- (10.0,0);
+	\draw[trans] (9.5,12.09) -- (9.5,0.0);
+	\draw[trans] (9.0,13.9) -- (9.0,0.0);
+	\draw[trans] (8.5,12.74) -- (8.5,10.2);
+	\draw[trans] (8.0,13.06) -- (8.0,10.2);
+	\draw[trans] (7.5,14.4) -- (7.5,10.2);
+	\draw[trans] (7.0,12.74) -- (7.0,12.09);
+	\draw[trans] (6.5,13.06) -- (6.5,12.09);
+	\draw[trans] (6.0,13.8) -- (6.0,12.09);
+	\draw[trans] (5.5,13.06) -- (5.5,12.74);
+	\draw[trans] (5.0,13.22) -- (5.0,12.74);
+	\draw[trans] (4.5,14.15) -- (4.5,12.74);
+
+	% Draw the photons
+	\draw[photon] (1.8,6.1) -- (3.3,6.1);
+	\node[align=right, text width=2] at (1.8,5.8) {\small{ionizing}};
+	\node[align=right, text width=2] at (1.8,5.5) {\small{photon}};
+	\draw[photon] (10.0,5.1) -- (11.5,5.1);
+	\node[align=left, text width=2] at (10.3,4.8) {\small{recombination}};
+	\node[align=left, text width=2] at (10.3,4.5) {\small{line}};
+
+\end{tikzpicture}
+
+\end{document} 
