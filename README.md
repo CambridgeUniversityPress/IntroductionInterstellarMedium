@@ -7,9 +7,8 @@ A remaining few were created in [keynote](https://www.apple.com/keynote/) and ar
 Use the command or control key when clicking on a link to open it in a new tab.
 
 #### Chapter 1
-* Figure 1.1
-* Figure 1.2
-* Figure 1.3
+* [Figure 1.1](introduction/allsky.pdf)
+* [Figure 1.2](introduction/collision_time.tex)
 
 #### Chapter 2
 * Figure 2.1
