@@ -1,0 +1,19 @@
+Keep my git repo separate from the ism one
+
+https://stackoverflow.com/questions/4220416/can-i-specify-multiple-users-for-myself-in-gitconfig
+
+git config --global user.name "Jonathan Williams"
+git config --global user.email jw@hawaii.edu
+
+git config user.name "interstellarmedium"
+git config user.email jpw.ism@gmail.com
+
+git pull origin master
+git add <files>
+git commit -m 'message'
+git push origin master
+
+git status
+git diff
+git log
+
