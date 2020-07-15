@@ -9,6 +9,7 @@ Recreate most of the figures from the book and starting points for some of the q
 
 #### Chapter 2
 * Figure 2.1
+* [Figure 2.](nytimes.com)
 
 #### Chapter 3
 * Figure 3.1
