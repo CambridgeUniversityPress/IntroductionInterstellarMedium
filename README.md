@@ -1,7 +1,7 @@
 ## Companion to "Introduction to the Interstellar Medium" by Jonathan Williams
 
 Recreate most of the figures from the book and starting points for some of the questions.
-Most figures are created in python notebooks that will open as an executable in [binder](https://mybinder.org/).
+Most figures are created in python as [jupyter notebooks](https://jupyter.org/) that will open as an executable in [binder](https://mybinder.org/).
 Other figures are created in [tikz](https://www.overleaf.com/learn/latex/TikZ_package) which require downloading and running 'pdflatex'.
 A remaining few were created in [keynote](https://www.apple.com/keynote/) and are only available here as pdf.
 Use the control key when clicking on a link to open it in a new tab.
