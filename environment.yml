@@ -1,13 +1,7 @@
-name: example-environment
+name: environment for interstellar medium notebooks
 channels:
   - conda-forge
 dependencies:
   - numpy
-  - psutil
-  - toolz
   - matplotlib
-  - dill
-  - pandas
-  - partd
-  - bokeh
-  - dask
+  - scipy
