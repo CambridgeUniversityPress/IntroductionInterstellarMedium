@@ -15,7 +15,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 2.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=observations/atmos_absorption.ipynb)) ([pdf](observations/atmos_absorption.pdf))
 
 #### Chapter 3
-* Figure 3.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=observations/maxwell.ipynb)) ([pdf](background/maxwell.pdf))
+* Figure 3.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?filepath=background/maxwell.ipynb)) ([pdf](background/maxwell.pdf))
 * Figure 3.2 ([tex](background/radtrans1.tex)) ([pdf](background/radtrans1.pdf))
 * Figure 3.3 ([tex](background/einsteinAB.tex)) ([pdf](background/einsteinAB.pdf))
 * Figure 3.4 ([tex](background/radtrans2.tex)) ([pdf](background/radtrans2.pdf))
