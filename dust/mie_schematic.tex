@@ -1,0 +1,57 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% schematic of Mie theory
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz, xcolor}
+\usetikzlibrary{decorations.pathmorphing, arrows, snakes, calc}
+
+
+\begin{document}
+
+% https://tex.stackexchange.com/questions/25678/nicer-wavy-line-with-tikz/25689#25689
+\pgfdeclaredecoration{complete sines}{initial}
+{
+    \state{initial}[
+        width=+0pt,
+        next state=sine,
+        persistent precomputation={\pgfmathsetmacro\matchinglength{
+            \pgfdecoratedinputsegmentlength / int(\pgfdecoratedinputsegmentlength/\pgfdecorationsegmentlength)}
+            \setlength{\pgfdecorationsegmentlength}{\matchinglength pt}
+        }] {}
+    \state{sine}[width=\pgfdecorationsegmentlength]{
+        \pgfpathsine{\pgfpoint{0.25\pgfdecorationsegmentlength}{0.5\pgfdecorationsegmentamplitude}}
+        \pgfpathcosine{\pgfpoint{0.25\pgfdecorationsegmentlength}{-0.5\pgfdecorationsegmentamplitude}}
+        \pgfpathsine{\pgfpoint{0.25\pgfdecorationsegmentlength}{-0.5\pgfdecorationsegmentamplitude}}
+        \pgfpathcosine{\pgfpoint{0.25\pgfdecorationsegmentlength}{0.5\pgfdecorationsegmentamplitude}}
+}
+    \state{final}{}
+}
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% draw photons
+	\draw[thick, ->, decorate, decoration={snake, post length=4mm, segment length=8mm, amplitude=3mm}] (-5,2.1) -- (5,2.1);
+	\draw[thick, ->, decorate, decoration={snake, post length=4mm, segment length=8mm, amplitude=3mm}] (-5,-2.1) -- (5,-2.1);
+
+
+	% draw photon through the spherical grain
+	\draw[thick, ->, decorate, decoration={snake, post length=4mm, segment length=8mm, amplitude=3mm}] (-5,0) -- (0,0);
+	\draw[thick, ->, decorate, decoration={snake, post length=4mm, segment length=8mm, amplitude=3mm}] (0.1,0) -- (4.7,0);
+	\fill[gray!30] (0,0) circle (1.75);
+	\draw[thick, decorate, decoration={complete sines, segment length=5mm, amplitude=5.5mm, post length=0mm}] (-1.75,0) -- (1.75,0);
+
+	% draw wavefront
+	\draw[dotted, thick] (-3.96,2.9) -- (-3.96,-2.9);
+	%\draw[dotted, thick] plot [smooth] coordinates {(3.35,2.9) (2.75,0.6) (3.5,-2.9)};
+	\draw[dotted, thick] plot [smooth] coordinates {(4.35,2.9) (4.15,0.0) (4.35,-2.9)};
+
+\end{tikzpicture}
+
+\end{document} 
