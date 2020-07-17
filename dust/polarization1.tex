@@ -1,0 +1,72 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% schematic of light scattering off dust
+% grain and becoming polarized
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{backgrounds}
+\tikzset{
+	partial ellipse/.style args={#1:#2:#3}{insert path={+ (#1:#3) arc (#1:#2:#3)}}
+	}
+
+\begin{document}
+
+\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+
+	% grain
+	\draw[color=white, fill=gray!30, rotate=0] (10,-3) ellipse (1 and 1);
+	\node at (10,-1.3) {\large scattering};
+	\node at (10,-1.7) {\large surface};
+
+	% background star
+	\node[star,star points=7,star point ratio=1.8, fill] at (0,3) {};
+
+	% telescope
+	\draw[very thick] (20,3) ellipse (0.1 and 0.5);
+	\draw[very thick] (22,3) [partial ellipse=-90:90:0.1 and 0.5];
+	\draw[very thick] (20,3.5) -- (22,3.5);
+	\draw[very thick] (20,2.5) -- (22,2.5);
+	\draw[white, fill=gray!70] (20.8,1.5) -- (21.3,2.5) -- (21.8,1.5) -- cycle;
+	%\draw[ultra thick] (0.2,1.9) arc (5:55:-1.7);
+
+	% lines of sight
+	\draw[very thick, dotted, arrows={-Triangle[angle=60:10pt]}] (0,3) -- (10,-3);
+	\draw[very thick, dotted, arrows={-Triangle[angle=60:10pt]}] (10,-3) -- (20,3);
+
+	% draw electric field direction
+	\draw[very thick, <->] (5,-0.75) -- (5,0.75);
+	\draw[very thick, <->] (4.25,0) -- (5.75,0);
+	\node at (3.6,-0.5) {\large unpolarized};
+	\draw[very thick, <->] (15,-0.35) -- (15,0.35);
+	\draw[very thick, <->] (14.25,0) -- (15.75,0);
+	\node at (13.7,0.4) {\large polarized};
+
+	% draw schematic of the polarization pattern
+	\draw[color=black, fill=gray!10] (21.7,-0.3) -- (18.3,-0.3) -- (18.3,-3.7) -- (21.7,-3.7) -- cycle;
+	\draw[fill] (20,-2) circle (0.1);
+	\draw[very thick] (19,-2.3) -- (19,-1.7);
+	\draw[very thick] (21,-2.3) -- (21,-1.7);
+	\draw[very thick] (19.7,-1) -- (20.3,-1);
+	\draw[very thick] (19.7,-3) -- (20.3,-3);
+	\draw[very thick] (18.8,-1.2) -- (19.2,-0.8);
+	\draw[very thick] (20.8,-0.8) -- (21.2,-1.2);
+	\draw[very thick] (18.8,-2.8) -- (19.2,-3.2);
+	\draw[very thick] (20.8,-3.2) -- (21.2,-2.8);
+	\node at (20,-0.05) {\large polarization pattern};
+	\node at (20,-3.9) {$\alpha$};
+	\node at (18.1,-2) {$\delta$};
+
+\end{tikzpicture}
+
+\end{document} 
