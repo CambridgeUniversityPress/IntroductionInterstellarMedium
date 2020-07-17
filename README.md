@@ -41,12 +41,10 @@ Use the command or control key when clicking on a link to open it in a new tab.
 
 
 
-'''
 * Figure 4.x ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/maxwell.ipynb)) ([pdf](dust/maxwell.pdf))
 
 * Figure 4.x ([tex](dust/radtrans1.tex)) ([pdf](dust/radtrans1.pdf))
 
 * Figure 4.x ([pdf](dust/allsky.pdf))
-'''
 
 
