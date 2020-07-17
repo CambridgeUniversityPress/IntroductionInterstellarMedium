@@ -23,17 +23,17 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 3.6 ([tex](background/bohr.tex)) ([pdf](background/bohr.pdf))
 
 #### Chapter 4
-* Figure 4.1 ([jpg](dust/b68_multiwavelength.jpg))
+* Figure 4.1 ([jpg](dust/b68_multi_wavelength.jpg))
 * Figure 4.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/extinction.ipynb)) ([pdf](dust/extinction.pdf))
 * Figure 4.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/mie_Q.ipynb)) ([pdf](dust/mie_Q.pdf))
 * Figure 4.4 ([tex](dust/mie_schematic.tex)) ([pdf](dust/mie_schematic.pdf))
-* Figure 4.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/orion.ipynb)) ([data](dust/orion_data.tar.gz))([pdf](dust/orion.pdf))
+* Figure 4.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/orion.ipynb)) ([data](dust/orion_data.tar.gz)) ([pdf](dust/orion.pdf))
 * Figure 4.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/mie_size_distribution.ipynb)) ([pdf](dust/mie_size_distribution.pdf))
-* Figure 4.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/b68_emission.ipynb)) ([data](dust/b68_data.tar.gz))([pdf](dust/b68_emission.pdf))
+* Figure 4.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/b68_emission.ipynb)) ([data](dust/b68_data.tar.gz)) ([pdf](dust/b68_emission.pdf))
 * Figure 4.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/Tdust.ipynb)) ([pdf](dust/Tdust.pdf))
 * Figure 4.9 ([tex](dust/polarization1.tex)) ([pdf](dust/polarization1.pdf))
 * Figure 4.10 ([tex](dust/polarization2.tex)) ([pdf](dust/polarization2.pdf))
-* Figure 4.11 ([pdf](dust/idl_sem.pdf))
+* Figure 4.11 ([pdf](dust/idp_sem.pdf))
 
 
 
@@ -41,10 +41,12 @@ Use the command or control key when clicking on a link to open it in a new tab.
 
 
 
+'''
 * Figure 4.x ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/maxwell.ipynb)) ([pdf](dust/maxwell.pdf))
 
 * Figure 4.x ([tex](dust/radtrans1.tex)) ([pdf](dust/radtrans1.pdf))
 
 * Figure 4.x ([pdf](dust/allsky.pdf))
+'''
 
 
