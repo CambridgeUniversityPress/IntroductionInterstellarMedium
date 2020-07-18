@@ -3,7 +3,7 @@
 Recreate figures from the book and use the code as starting points for some of the questions.
 Most figures are created in python as [jupyter notebooks](https://jupyter.org/) that will open in jupyter labs through [binder](https://mybinder.org/).
 Line drawings are created in [tikz](https://www.overleaf.com/learn/latex/TikZ_package) which require downloading the tex file and running 'pdflatex'.
-A remaining few were created in [keynote](https://www.apple.com/keynote/) and are only available here as pdf.
+A remaining few others were created in [keynote](https://www.apple.com/keynote/) and are only available here as pdf.
 Use the command or control key when clicking on a link to open it in a new tab.
 
 #### Chapter 1
