@@ -6,13 +6,16 @@ Line drawings are created in [tikz](https://www.overleaf.com/learn/latex/TikZ_pa
 A remaining few others were created in [keynote](https://www.apple.com/keynote/) and are only available here as pdf.
 Use the command or control key when clicking on a link to open it in a new tab.
 
+
 #### Chapter 1
 * Figure 1.1 ([pdf](introduction/allsky.pdf))
 * Figure 1.2 ([tex](introduction/collision_time.tex)) ([pdf](introduction/collision_time.pdf))
 
+
 #### Chapter 2
 * Figure 2.1 ([tex](observations/radiation_schematic.tex)) ([pdf](observations/radiation_schematic.pdf))
 * Figure 2.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/observations/atmos_absorption.ipynb)) ([pdf](observations/atmos_absorption.pdf))
+
 
 #### Chapter 3
 * Figure 3.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/background/maxwell.ipynb)) ([pdf](background/maxwell.pdf))
@@ -21,6 +24,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 3.4 ([tex](background/radtrans2.tex)) ([pdf](background/radtrans2.pdf))
 * Figure 3.5 ([tex](background/radtrans3.tex)) ([pdf](background/radtrans3.pdf))
 * Figure 3.6 ([tex](background/bohr.tex)) ([pdf](background/bohr.pdf))
+
 
 #### Chapter 4
 * Figure 4.1 ([jpg](dust/b68_multi_wavelength.jpg))
@@ -36,15 +40,19 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 4.11 ([pdf](dust/idp_sem.pdf))
 
 
+#### Chapter 5
+* Figure 5.1 ([tex](atomic/21cm.tex)) ([pdf](atomic/21cm.pdf))
+* Figure 5.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_section.ipynb)) ([data](atomic/HI_section.tar.gz)) ([pdf](atomic/HI_section.pdf))
+* Figure 5.3 ([tex](atomic/HI_absorption.tex)) ([pdf](atomic/HI_absorption.pdf))
+* Figure 5.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_spectra.ipynb)) ([data](atomic/HI_spectra.tar.gz)) ([pdf](atomic/HI_spectra.pdf))
+* Figure 5.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/CII_allsky.ipynb)) ([data](atomic/CII_allsky.tar.gz)) ([pdf](atomic/CII_allsky.pdf))
+* Figure 5.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_cooling.ipynb)) ([pdf](atomic/HI_cooling.pdf))
+* Figure 5.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/FGH.ipynb)) ([pdf](atomic/FGH.pdf))
+* Figure 5.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/gas_dust_ratio.ipynb)) ([data](atomic/gas_dust_ratio.tar.gz)) ([pdf](atomic/gas_dust_ratio.pdf))
+* Figure 5.9 ([tex](atomic/equivalent_width.tex)) ([pdf](atomic/equivalent_width.pdf))
+* Figure 5.10 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/voigt_profile.ipynb)) ([pdf](atomic/voigt_profile.pdf))
+* Figure 5.11 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/curve_of_growth.ipynb)) ([pdf](atomic/curve_of_growth.pdf))
+* Figure 5.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/depletion.ipynb)) ([data](atomic/savage_sembach_table1.txt)) ([pdf](atomic/depletion.pdf))
 
-
-
-
-
-* Figure 4.x ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/maxwell.ipynb)) ([pdf](dust/maxwell.pdf))
-
-* Figure 4.x ([tex](dust/radtrans1.tex)) ([pdf](dust/radtrans1.pdf))
-
-* Figure 4.x ([pdf](dust/allsky.pdf))
 
 

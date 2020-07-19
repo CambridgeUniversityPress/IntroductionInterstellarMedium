@@ -1,0 +1,42 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% schematic of equivalent width
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{backgrounds}
+
+\begin{document}
+
+\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+	
+	% draw eq width
+	% do this first so other things go on top
+	\path[fill=gray!30] (3.4,0) rectangle (4.6,4);
+	\draw[thick, <->] (3.4,0.5) -- (4.6,0.5);
+	\node at (4.0,0.75) {$W_\lambda$};
+
+	% draw axes
+	\draw[thick, ->] (0,0) -- (0,5);
+	\draw[thick, ->] (0,0) -- (8,0);
+	\node at (7.75,-0.25) {$\lambda$};
+	\node at (-0.3,4.8) {$F_\lambda$};
+	\node at (-0.3,4.0) {$F_{\rm c}$};
+	\node at (-0.2,0) {$0$};
+
+	% draw spectra
+	\draw[thick, dashed] (0,4) -- (8,4);
+	\draw[very thick] plot [smooth] coordinates {(0.5,4) (1,4) (2.0,3.9) (2.5,3.5) (3,2.5) (3.5,2) (4,1.85) (4.5,2) (5,2.5) (5.5,3.5) (6.0,3.9) (7,4) (7.5,4)};
+
+
+\end{tikzpicture}
+
+\end{document} 
