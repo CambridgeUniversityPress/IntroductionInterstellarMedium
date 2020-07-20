@@ -42,7 +42,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 
 #### Chapter 5
 * Figure 5.1 ([tex](atomic/21cm.tex)) ([pdf](atomic/21cm.pdf))
-* Figure 5.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_section.ipynb)) ([data](atomic/HI_section.tar.gz)) ([pdf](atomic/HI_section.pdf))
+* Figure 5.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_section.ipynb)) ([pdf](atomic/HI_section.pdf))
 * Figure 5.3 ([tex](atomic/HI_absorption.tex)) ([pdf](atomic/HI_absorption.pdf))
 * Figure 5.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_spectra.ipynb)) ([data](atomic/HI_spectra.tar.gz)) ([pdf](atomic/HI_spectra.pdf))
 * Figure 5.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/CII_allsky.ipynb)) ([data](atomic/CII_allsky.tar.gz)) ([pdf](atomic/CII_allsky.pdf))
