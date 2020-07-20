@@ -46,7 +46,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 5.3 ([tex](atomic/HI_absorption.tex)) ([pdf](atomic/HI_absorption.pdf))
 * Figure 5.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_spectra.ipynb)) ([pdf](atomic/HI_spectra.pdf))
 * Figure 5.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/CII_allsky.ipynb)) ([data](atomic/FIRAS_LINE_EMISSION_MAP_HIGH.fits)) ([pdf](atomic/CII_allsky.pdf))
-* Figures 5.6 and 5.7([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/FGH.ipynb)) ([pdf5.6](atomic/HI_cooling.pdf)) ([pdf5.7](atomic/FGH.pdf))
+* Figures 5.6 and 5.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/FGH.ipynb)) ([pdf5.6](atomic/HI_cooling.pdf)) ([pdf5.7](atomic/FGH.pdf))
 * Figure 5.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/gas_dust_ratio.ipynb)) ([data](atomic/gas_dust_ratio.tar.gz)) ([pdf](atomic/gas_dust_ratio.pdf))
 * Figure 5.9 ([tex](atomic/equivalent_width.tex)) ([pdf](atomic/equivalent_width.pdf))
 * Figure 5.10 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/voigt_profile.ipynb)) ([pdf](atomic/voigt_profile.pdf))
