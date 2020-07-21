@@ -53,5 +53,21 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 5.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/depletion.ipynb)) ([data](atomic/savage_sembach_table5.txt)) ([pdf](atomic/depletion.pdf))
 
 
+#### Chapter 6
+* Figure 6.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/rosette.ipynb)) ([pdf](ionized/rosette.pdf))
+* Figure 6.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/dustyHII.ipynb)) ([pdf](ionized/dustyHII.pdf))
+* Figure 6.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/galactic_continuum.ipynb)) ([pdf](ionized/galactic_continuum.pdf))
+* Figure 6.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf](ionized/bremsstrahlung.pdf))
+* Figure 6.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf](ionized/bremsstrahlung.pdf))
+* Figure 6.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/synchrotron.ipynb)) ([pdf](ionized/synchrotron.pdf))
+* Figure 6.7 ([tex](ionized/HIlines.tex)) ([pdf](ionized/HIlines.pdf))
+* Figure 6.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/wham.ipynb)) ([pdf](ionized/wham.pdf))
+* Figure 6.9 ([tex](ionized/twolevel.tex)) ([pdf](ionized/twolevel.pdf))
+* Figure 6.10 ([tex](ionized/threelevel.tex)) ([pdf](ionized/threelevel.pdf))
+* Figure 6.11 ([tex](ionized/OII.tex)) ([pdf](ionized/OII.pdf))
+* Figure 6.12 ([tex](ionized/OIII.tex)) ([pdf](ionized/OIII.pdf))
+* Figure 6.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/OIII_line_ratio.ipynb)) ([pdf](ionized/OIII_line_ratio.pdf))
+* Figure 6.14 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/pulsar_dispersion.ipynb)) ([pdf](ionized/pulsar_dispersion.pdf))
+* Figure 6.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/heating_cooling.ipynb)) ([pdf](ionized/heating_cooling.pdf))
 
 
