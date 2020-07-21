@@ -59,7 +59,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 6.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/galactic_plane_continuum_21cm.ipynb)) ([data](g330to340.i.fits)) ([pdf](ionized/galactic_plane_continuum_21cm.pdf))
 * Figures 6.4 and 6.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf6.4](ionized/bremsstrahlung.pdf)) ([pdf6.5](ionized/bremsstrahlung_SED_evolution.pdf))
 * Figure 6.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/synchrotron.ipynb)) ([pdf](ionized/synchrotron.pdf))
-* Figure 6.7 ([tex](ionized/Hlines.tex)) ([pdf](ionized/HIlines.pdf))
+* Figure 6.7 ([tex](ionized/Hlines.tex)) ([pdf](ionized/Hlines.pdf))
 * Figure 6.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/wham.ipynb)) ([data](ionized/wham.fits)) ([pdf](ionized/wham.pdf))
 * Figure 6.9 ([tex](ionized/twolevel.tex)) ([pdf](ionized/twolevel.pdf))
 * Figure 6.10 ([tex](ionized/threelevel.tex)) ([pdf](ionized/threelevel.pdf))
