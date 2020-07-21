@@ -1,0 +1,47 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OII energy level diagram
+%
+% 4S3/2 level is ground
+% 2D5/2 level at 3.892 x 10**4 K
+% 2D3/2 level at 3.888 x 10**4 K
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes}
+
+\begin{document}
+
+\tikzset{
+	level/.style={thick},
+	trans/.style={thick, dashed,->,shorten >=2pt,shorten <=2pt,>=stealth},
+	photon/.style={thick, ->, snake=snake, line after snake=1mm}
+	}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% Draw the energy levels
+	\draw[level] (7.0cm,0cm) -- (2cm,0cm) node[left] {$^4{\rm S}_{3/2}$};
+	\draw[level] (7.0cm,3.1cm) -- (2cm,3.1cm) node[left] {$^2{\rm D}_{3/2}$};
+	\draw[level] (7.0cm,2.75cm) -- (2cm,2.75cm) node[left] {$^2{\rm D}_{5/2}$};
+
+	% Draw the transitions
+	\draw[trans] (3.0cm,3.1cm) -- (3.0cm,0cm);
+	\draw[trans] (4.0cm,2.75cm) -- (4.0cm,0cm);
+
+	% Draw the photons
+	\draw[photon] (3.0cm,1.1cm) -- (5.0cm,1.1cm) node[below] {\small{372.6}};
+	\draw[photon] (4.0cm,1.8cm) -- (6.0cm,1.8cm) node[above] {\small{372.9}};
+
+	% Title
+	%\node at (4.5,3.45) {\Large{[OII]}};
+	\node at (4.5,3.45) {\Large{OII}};
+
+\end{tikzpicture}
+
+\end{document} 

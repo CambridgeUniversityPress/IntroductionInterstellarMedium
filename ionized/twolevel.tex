@@ -1,0 +1,42 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% schematic of two level diagram
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes}
+
+
+\begin{document}
+
+\tikzset{
+	level/.style={thick},
+	coll/.style={thick, dotted,->,shorten >=2pt,shorten <=2pt,>=stealth},
+	trans/.style={thick, dashed,->,shorten >=2pt,shorten <=2pt,>=stealth},
+	photon/.style={thick, ->, snake=snake, line after snake=1mm}
+	}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% Draw the energy levels
+	\draw[level] (7.0cm,0cm) -- (2cm,0cm) node[left] {1};
+	\draw[level] (7.0cm,2.5cm) -- (2cm,2.5cm) node[left] {2};
+
+	% Draw the transitions
+	\draw[coll] (3.0cm,0cm) -- (3.0cm,2.5cm) node[midway, left] {\small{$C_{12}$}};
+	\draw[coll] (3.5cm,2.5cm) -- (3.5cm,0cm) node[midway, right] {\small{$C_{21}$}};
+	\draw[trans] (4.5cm,2.5cm) -- (4.5cm,0cm);
+
+	% Draw the photons
+	\draw[photon] (4.5cm,1.25cm) -- (6.5cm,1.25cm) node[above] {\small{$A_{21}$}};
+
+\end{tikzpicture}
+
+\end{document} 

@@ -1,0 +1,79 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OIII energy level diagram
+%
+% 3P  level is ground
+% 1D2 level at 2.9 x 10**4 K
+% 1S0 level at 6.2 x 10**4 K
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,snakes}
+
+\begin{document}
+
+\tikzset{
+	level/.style={thick},
+	trans/.style={thick, dashed,->,shorten >=2pt,shorten <=2pt,>=stealth},
+	photon/.style={thick, ->, snake=snake, line after snake=1mm}
+	}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% Draw the energy levels
+	\draw[level] (7.0cm,0cm) -- (2cm,0cm) node[left] {$^3{\rm P}_{0,1,2}$};
+	\draw[level] (7.0cm,1.9cm) -- (2cm,1.9cm) node[left] {$^1{\rm D}_2$};
+	\draw[level] (7.0cm,4.2cm) -- (2cm,4.2cm) node[left] {$^1{\rm S}_0$};
+
+	% Draw the transitions
+	\draw[trans] (2.5cm,4.2cm) -- (2.5cm,0cm);
+	\draw[trans] (3.5cm,4.2cm) -- (3.5cm,1.9cm);
+	\draw[trans] (4.5cm,1.9cm) -- (4.5cm,0cm);
+	\draw[trans] (4.7cm,1.9cm) -- (4.7cm,0cm);
+
+	% Draw the photons
+	\draw[photon] (2.5cm,3.4cm) -- (4.5cm,3.4cm) node[above] {\small{232.1}};
+	\draw[photon] (3.5cm,2.9cm) -- (5.5cm,2.9cm) node[below] {\small{436.3}};
+	\draw[photon] (4.5cm,1.15cm) -- (6.5cm,1.15cm) node[above] {\small{500.7}};
+	\draw[photon] (4.7cm,0.75cm) -- (6.7cm,0.75cm) node[below] {\small{495.8}};
+
+	% Title
+	%\node at (4.5,6.6) {\Large{O$^{2+}$}};
+	%\node at (4.5,4.6) {\Large{[OIII]}};
+	\node at (4.5,4.6) {\Large{OIII}};
+
+\end{tikzpicture}
+
+\end{document} 
+
+
+
+
+% tall figure (not used)
+\newpage
+\begin{tikzpicture}[scale=1.0]
+
+% Draw the energy levels
+\draw[level] (6.5cm,0cm) -- (2cm,0cm) node[left] {$^3{\rm P}_{0,1,2}$};
+\draw[level] (6.5cm,5.8cm) -- (2cm,5.8cm) node[left] {$^1{\rm D}_2$};
+\draw[level] (6.5cm,12.4cm) -- (2cm,12.4cm) node[left] {$^1{\rm S}_0$};
+
+% Draw the transitions
+\draw[trans] (3.0cm,12.4cm) -- (3cm,0cm);
+\draw[trans] (4.0cm,12.4cm) -- (4cm,5.8cm);
+\draw[trans] (5.0cm,5.8cm) -- (5cm,0cm);
+\draw[trans] (5.5cm,5.8cm) -- (5.5cm,0cm);
+
+% Draw the photons
+\draw[photon] (5.0cm,3.3cm) -- (6.5cm,3.3cm);
+\draw[photon] (5.5cm,2.4cm) -- (7.0cm,2.4cm);
+\draw[photon] (3.0cm,9.6cm) -- (4.5cm,9.6cm);
+\draw[photon] (4.0cm,8.6cm) -- (5.5cm,8.6cm);
+
+\end{tikzpicture}
+
