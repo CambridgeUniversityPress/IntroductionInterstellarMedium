@@ -49,8 +49,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figures 5.6 and 5.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/FGH.ipynb)) ([pdf5.6](atomic/HI_cooling.pdf)) ([pdf5.7](atomic/FGH.pdf))
 * Figure 5.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/gas_dust_ratio.ipynb)) ([data](atomic/gas_dust_ratio.tar.gz)) ([pdf](atomic/gas_dust_ratio.pdf))
 * Figure 5.9 ([tex](atomic/equivalent_width.tex)) ([pdf](atomic/equivalent_width.pdf))
-* Figure 5.10 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/voigt_profile.ipynb)) ([pdf](atomic/voigt_profile.pdf))
-* Figure 5.11 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/curve_of_growth.ipynb)) ([pdf](atomic/curve_of_growth.pdf))
+* Figures 5.10 and 5.11 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/curve_of_growth.ipynb)) ([pdf5.10](atomic/voigt.pdf)) ([pdf5.11](atomic/curve_of_growth.pdf))
 * Figure 5.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/depletion.ipynb)) ([data](atomic/savage_sembach_table1.txt)) ([pdf](atomic/depletion.pdf))
 
 
