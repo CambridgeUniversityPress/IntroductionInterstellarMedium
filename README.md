@@ -56,9 +56,8 @@ Use the command or control key when clicking on a link to open it in a new tab.
 #### Chapter 6
 * Figure 6.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/rosette.ipynb)) ([pdf](ionized/rosette.pdf))
 * Figure 6.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/dustyHII.ipynb)) ([pdf](ionized/dustyHII.pdf))
-* Figure 6.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/galactic_continuum.ipynb)) ([pdf](ionized/galactic_continuum.pdf))
-* Figure 6.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf](ionized/bremsstrahlung.pdf))
-* Figure 6.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf](ionized/bremsstrahlung.pdf))
+* Figure 6.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/galactic_continuum_21cm.ipynb)) ([data](g330to340.i.fits)) ([pdf](ionized/galactic_continuum_21cm.pdf))
+* Figures 6.4 and 6.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/bremsstrahlung.ipynb)) ([pdf6.4](ionized/bremsstrahlung.pdf)) ([pdf6.5](ionized/bremsstrahlung_SED_evolution.pdf))
 * Figure 6.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/synchrotron.ipynb)) ([pdf](ionized/synchrotron.pdf))
 * Figure 6.7 ([tex](ionized/HIlines.tex)) ([pdf](ionized/HIlines.pdf))
 * Figure 6.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/wham.ipynb)) ([pdf](ionized/wham.pdf))
