@@ -70,3 +70,21 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 6.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/heating_cooling.ipynb)) ([pdf](ionized/heating_cooling.pdf))
 
 
+
+#### Chapter 7
+* Figure 7.1 ([tex](molecules/molecular_transitions_schematic.tex)) ([pdf](molecules/molecular_transitions_schematic.pdf))
+* Figure 7.2 ([tex](molecules/CO_levels.tex)) ([pdf](molecules/CO_levels.pdf))
+* Figure 7.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/CO_rovib.ipynb)) ([data](molecules/Chandra_CO_EinsteinA.fits)) ([pdf](molecules/CO_rovib.pdf))
+* Figure 7.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/PILS_spectrum.ipynb)) ([data](molecules/PILS_spectrum.txt)) ([pdf](molecules/PILS_spectrum.pdf))
+* Figure 7.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/rosette_CO_spectrum.ipynb)) ([data](molecules/rosette_CO_spectrum.txt)) ([pdf](molecules/rosette_CO_spectrum.pdf))
+* Figure 7.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/rotation_diagram.ipynb)) ([pdf](molecules/rotation_diagram.pdf))
+* Figure 7.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/rosette_CO_image.ipynb)) ([data](molecules/rosette_CO_FCRAO.fits)) ([pdf](molecules/rosette_CO_image.pdf))
+* Figure 7.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/rosette_polarization.ipynb)) ([data](molecules/rosette_polarization.tar.gz)) ([pdf](molecules/rosette_polarization.pdf))
+* Figure 7.9 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/rosette_clump.ipynb)) ([data](molecules/rosette_clump.tar.gz)) ([pdf](molecules/rosette_clump.pdf))
+* Figure 7.10 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/size-linewidth.ipynb)) ([pdf](molecules/size-linewidth.pdf))
+* Figure 7.11 ([tex](molecules/PDR_structure.tex)) ([pdf](molecules/PDR_structure.pdf))
+* Figure 7.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/H2_potential.ipynb)) ([pdf](molecules/H2_potential.pdf))
+* Figure 7.13 ([pdf](molecules/dust_grain_chemistry.pdf))
+* Figure 7.14 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/W33A_ISO_SWS.ipynb)) ([data](molecules/W33A_ISO_SWS.fits)) ([pdf](molecules/W33A_ISO_SWS.pdf))
+
+

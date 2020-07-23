@@ -1,0 +1,70 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% schematic of PDR structure
+% (following Hollenbach & Tielens 1997)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{backgrounds}
+
+\begin{document}
+
+%\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	\begin{scope}
+		\shade[shading=axis, right color=black!90, top color=white, shading angle=90] (4,1.6) rectangle (12,7.2);
+	\end{scope}
+
+	% FUV
+	\draw [line width=0.5mm, domain=0:10] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=10:20] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=20:30] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=30:40] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=40:50] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=50:60] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, domain=60:70] plot (1+0.11*\x, {5.8+(sin(0.5*pi*\x r)* ln(71-\x))*0.12});
+	\draw [line width=0.5mm, ->] (8.68,5.8) -- (8.95,5.8);
+	\node at (0.3,5.9) {\Large{FUV}};
+
+	% labels
+	\node at (1.6,4) {\Large{HI}};
+	\node at (1.6,3) {\Large{CII}};
+	\node at (5.5,4) {\Large{H$_2$}};
+	\node at (5.5,3) {\Large{CII}};
+	\node at (7.5,4) {\Large{H$_2$}};
+	\node at (7.5,3) {\Large{CI~~~CO}};
+	%\node[align=center, white] at (4.5,0.8) {\large S};
+	\node[align=center, white] at (11.0,3.8) {\large{DARK}};
+	\node[align=center, white] at (11.0,3.2) {\large{CLOUD}};
+
+	% extinction axis
+	\draw[thick, ->] (0,0.5) -- (12,0.5);
+	\node at (0.3,0.1) {$A_V (mag)$};
+	\draw[thick] (6,0.4) -- (6,0.6);
+	\node at (6,0) {0.5};
+	\draw[thick] (8,0.4) -- (8,0.6);
+	\node at (8,0) {1};
+	\draw[thick] (11.5,0.4) -- (11.5,0.6);
+	\node at (11.5,0) {2};
+
+	% temperature axis
+	\draw[thick, <-] (0,1.0) -- (12,1.0);
+	\node at (0.4,1.4) {${\rm log}_{10}T (K)$};
+	\draw[thick] (1.6,0.9) -- (1.6,1.1);
+	\node at (1.6,1.3) {3};
+	\draw[thick] (4.2,0.9) -- (4.2,1.1);
+	\node at (4.2,1.3) {2};
+	\draw[thick] (8.2,0.9) -- (8.2,1.1);
+	\node at (8.2,1.3) {1};
+
+\end{tikzpicture}
+
+\end{document} 
