@@ -70,7 +70,6 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 6.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/heating_cooling.ipynb)) ([pdf](ionized/heating_cooling.pdf))
 
 
-
 #### Chapter 7
 * Figure 7.1 ([tex](molecules/molecular_transitions_schematic.tex)) ([pdf](molecules/molecular_transitions_schematic.pdf))
 * Figure 7.2 ([tex](molecules/CO_levels.tex)) ([pdf](molecules/CO_levels.pdf))
@@ -86,5 +85,22 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 7.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/H2_potential.ipynb)) ([pdf](molecules/H2_potential.pdf))
 * Figure 7.13 ([pdf](molecules/dust_grain_chemistry.pdf))
 * Figure 7.14 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/W33A_ISO_SWS.ipynb)) ([data](molecules/W33A_ISO_SWS.fits)) ([pdf](molecules/W33A_ISO_SWS.pdf))
+
+
+#### Chapter 8
+* Figure 8.1 ([tex](dynamics/fluid_element.tex)) ([pdf](dynamics/fluid_element.pdf))
+* Figure 8.2 ([tex](dynamics/magnetic_field_lines.tex)) ([pdf](dynamics/magnetic_field_lines.pdf))
+* Figure 8.3 ([tex](dynamics/shock1.tex)) ([pdf](dynamics/shock1.pdf))
+* Figure 8.4 ([tex](dynamics/shock2.tex)) ([pdf](dynamics/shock2.pdf))
+* Figure 8.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/casA_SNR.ipynb)) ([data](dynamics/Chandra_casA_SNR.fits)) ([pdf](dynamics/casA_SNR.pdf))
+* Figure 8.6 ([tex](dynamics/SNR_schematic.tex)) ([pdf](dynamics/SNR_schematic.pdf))
+* Figure 8.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/crab_SNR.ipynb)) ([data](dynamics/Chandra_crab_SNR.fits)) ([pdf](dynamics/crab_SNR.pdf))
+* Figure 8.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/veil_SNR.ipynb)) ([data](dynamics/Chandra_veil_SNR.fits)) ([pdf](dynamics/veil_SNR.pdf))
+* Figure 8.9 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/supernova.ipynb)) ([pdf](dynamics/supernova.pdf))
+* Figure 8.10 ([tex](dynamics/HII_ionization_front.tex)) ([pdf](dynamics/HII_ionization_front.pdf))
+* Figure 8.11 ([tex](dynamics/HII_pressure_shock.tex)) ([pdf](dynamics/HII_pressure_shock.pdf))
+* Figure 8.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/HII_expansion.ipynb)) ([pdf](dynamics/HII_expansion.pdf))
+* Figure 8.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/N44.ipynb)) ([data](dynamics/Chandra_N44.fits)) ([pdf](dynamics/N44.pdf))
+
 
 
