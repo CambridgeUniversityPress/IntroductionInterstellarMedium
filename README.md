@@ -104,9 +104,9 @@ Use the command or control key when clicking on a link to open it in a new tab.
 
 
 #### Chapter 9
-* Figures 9.1, 9.2, and 9.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/bonnor_ebert_profiles.ipynb)) ([pdf9.1](star_formation/bonnor_ebert_profiles.pdf)) ([pdf9.2](star_formation/bonnor_ebert_mass.pdf)) ([pdf9.3](star_formation/b68_profile.pdf))
+* Figures 9.1, 9.2, and 9.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/bonnor_ebert.ipynb)) ([pdf9.1](star_formation/bonnor_ebert_profiles.pdf)) ([pdf9.2](star_formation/bonnor_ebert_mass.pdf)) ([pdf9.3](star_formation/b68_profile.pdf))
 * Figure 9.4 ([tex](star_formation/infall_schematic.tex)) ([pdf](star_formation/infall_schematic.pdf))
-* Figures 9.5 and 9.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/infall.ipynb)) ([pdf9.5](star_formation/infall2.pdf)) ([pdf9.6](star_formation/infall2.pdf))
+* Figures 9.5 and 9.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/infall.ipynb)) ([pdf9.5](star_formation/infall1.pdf)) ([pdf9.6](star_formation/infall2.pdf))
 * Figure 9.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/ophiuchus.ipynb)) ([jpg](star_formation/ophiuchus_spitzer.jpg)) ([pdf](star_formation/ophiuchus_24micron.pdf))
 * Figure 9.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/imf.ipynb)) ([pdf](star_formation/imf.pdf))
 * Figure 9.9 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/galactic_center_molecules.ipynb)) ([data](star_formation/galactic_center_molecules.tar.gz)) ([pdf](star_formation/galactic_center_molecules.pdf))
