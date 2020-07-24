@@ -115,5 +115,5 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 9.12 ([tex](dynamics/disk.tex)) ([pdf](dynamics/disk.pdf))
 * Figure 9.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/disk_SED.ipynb)) ([pdf](star_formation/disk_SED.pdf))
 * Figure 9.14 ([pdf](star_formation/disk_schematic.pdf))
-* Figure 9.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/IMLup.ipynb)) ([SPHERE jpg](star_formation/IMLup_SPHERE.jpg)) ([ALMA data](star_formation/IMLup_ALMA.FITS)) ([pdf](star_formation/IMLup.pdf))
+* Figure 9.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/IMLup.ipynb)) ([SPHERE jpg](star_formation/IMLup_SPHERE.jpg)) ([ALMA data](star_formation/IMLup_ALMA.fits)) ([pdf](star_formation/IMLup.pdf))
 
