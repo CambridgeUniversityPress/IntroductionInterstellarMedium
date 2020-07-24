@@ -100,7 +100,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 8.10 ([tex](dynamics/HII_ionization_front.tex)) ([pdf](dynamics/HII_ionization_front.pdf))
 * Figure 8.11 ([tex](dynamics/HII_pressure_shock.tex)) ([pdf](dynamics/HII_pressure_shock.pdf))
 * Figure 8.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/HII_expansion.ipynb)) ([pdf](dynamics/HII_expansion.pdf))
-* Figure 8.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/N44.ipynb)) ([data](dynamics/Chandra_N44.fits)) ([pdf](dynamics/N44.pdf))
+* Figure 8.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/N44.ipynb)) ([data](dynamics/N44_DSS2_red.fits)) ([pdf](dynamics/N44.pdf))
 
 
 
