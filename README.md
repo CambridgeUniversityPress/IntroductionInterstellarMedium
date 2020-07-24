@@ -103,4 +103,17 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 8.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/N44.ipynb)) ([data](dynamics/N44_DSS2_red.fits)) ([pdf](dynamics/N44.pdf))
 
 
+#### Chapter 9
+* Figures 9.1, 9.2, and 9.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/bonner_ebert_profiles.ipynb)) ([pdf9.1](star_formation/bonner_ebert_profiles.pdf)) ([pdf9.2](star_formation/bonner_ebert_mass.pdf)) ([pdf9.3](star_formation/b68_profile.pdf))
+* Figure 9.4 ([tex](dynamics/infall_schematic.tex)) ([pdf](dynamics/infall_schematic.pdf))
+* Figures 9.5 and 9.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/infall.ipynb)) ([pdf9.5](star_formation/infall2.pdf)) ([pdf9.6](star_formation/infall2.pdf))
+* Figure 9.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/ophiuchus.ipynb)) ([jpg](star_formation/ophiuchus_spitzer.jpg)) ([pdf](star_formation/ophiuchus_24micron.pdf))
+* Figure 9.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/imf.ipynb)) ([pdf](star_formation/imf.pdf))
+* Figure 9.9 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/galactic_center_molecules.ipynb)) ([data](star_formation/galactic_center_molecules.tar.gz)) ([pdf](star_formation/galactic_center_molecules.pdf))
+* Figure 9.10 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/cluster_expansion.ipynb)) ([pdf](star_formation/cluster_expansion.pdf))
+* Figure 9.11 ([pdf](star_formation/HH212_annotated.pdf))
+* Figure 9.12 ([tex](dynamics/disk.tex)) ([pdf](dynamics/disk.pdf))
+* Figure 9.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/disk_SED.ipynb)) ([pdf](star_formation/disk_SED.pdf))
+* Figure 9.14 ([pdf](star_formation/disk_schematic.pdf))
+* Figure 9.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/IMLup.ipynb)) ([data](star_formation/IMLup.tar.gz)) ([pdf](star_formation/IMLup.pdf))
 

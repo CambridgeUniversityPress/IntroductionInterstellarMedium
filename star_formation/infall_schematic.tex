@@ -1,0 +1,51 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% two layer infall model
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{backgrounds}
+
+\begin{document}
+
+%\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% collapsing core
+	\shadedraw[inner color=black!80, outer color=white, draw=white] (-10,10) circle (5);
+	\draw[line width=3pt, ->] (-6.5,10) -- (-7.5,10);
+	\draw[line width=3pt, ->] (-13.5,10) -- (-12.5,10);
+	\draw[line width=3pt, ->] (-10,13.5) -- (-10,12.5);
+	\draw[line width=3pt, ->] (-10,6.5) -- (-10,7.5);
+
+	% two layer model
+	\filldraw[black!50] (-11,0) rectangle (-9,4);
+	\filldraw[black!15] (-8.5,0) rectangle (-6.5,4);
+	\draw[line width=3pt, ->] (-7,2) -- (-8,2);
+
+	% "invisible" back layer
+	\draw[gray, line width=1pt, dashed] (-13.5,0) rectangle (-11.5,4);
+	\draw[gray, line width=3pt, ->] (-13,2) -- (-12,2);
+
+	% telescope
+	\draw[white, fill=gray!70] (4.5,8.5) -- (5,10) -- (5.5,8.5) -- cycle;
+	\draw[line width=2pt] (4.5,9.9) -- (5,9.9);
+	\draw[line width=3pt] (4.3,9) arc (-30:30:1.7);
+	\draw[white, fill=gray!70] (4.5,0.5) -- (5,2) -- (5.5,0.5) -- cycle;
+	\draw[line width=2pt] (4.5,1.9) -- (5,1.9);
+	\draw[line width=3pt] (4.3,1) arc (-30:30:1.7);
+
+	% make a little white space at the bottom of the plot
+	\draw[white] (0.01,-0.2) -- (0,-0.2);
+
+
+\end{tikzpicture}
+
+\end{document} 
