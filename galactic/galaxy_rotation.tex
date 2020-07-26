@@ -1,0 +1,66 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% two layer infall model
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+\usetikzlibrary{shapes.geometric}
+\usetikzlibrary{backgrounds}
+\usetikzlibrary{arrows.meta}
+
+\tikzset{partial ellipse/.style args={#1:#2:#3}{insert path={+ (#1:#3) arc (#1:#2:#3)}}}
+\tikzset{photon/.style={->, snake=snake, line after snake=1mm}}
+
+\begin{document}
+
+%\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	% Sun
+	\draw[line width=0.2mm, solid] (0,0) circle (10);
+	\draw[fill] (0,10) circle (0.15);
+	\draw[fill, color=white] (0,10) circle (0.08);
+	\draw[thick, arrows={-Triangle[angle=60:7pt]}] (0,10) -- (1.5,10);
+		\node[align=center] at (2,10.2) {\huge{$V_{\rm S}$}};
+
+	% source
+	\draw[line width=0.2mm, solid] (0,0) circle (7);
+	\draw[fill] (3,6.325) circle (0.1);
+		\node[align=center] at (3.2,6.7) {\Large{$A$}};
+	\draw[thick, arrows={-Triangle[angle=60:7pt]}] (3,6.325) -- (4.8,5.4715);
+		\node[align=center] at (5.7,5.7) {\huge{$V(R)$}};
+	\draw[line width=0.3mm] (6.8,1.65) circle (0.1);
+		\node[align=center] at (7.1,2.0) {\Large{$B$}};
+
+	% triangle
+	\draw[line width=0.4mm, solid] (0,10) -- (3,6.325);
+	%\draw[line width=0.3mm, dotted] (3,6.325) -- (11,-3.475);
+	\draw[line width=0.3mm, dotted] (3,6.325) -- (9.5,-1.635);
+	\node[align=right] at (0.3,9.1) {\Large{$\l$}};
+	\draw[thick, arrows={-Triangle[angle=60:7pt]}] (3,6.325) -- (4,5.1);
+		\node[align=center] at (4.2,4.5) {\huge{$V_{rad}$}};
+	\node[align=right] at (3.8,5.65) {\Large{$\theta$}};
+
+	% Galaxy center
+	\draw[fill] (0,0) circle (0.1);
+
+	% annotation
+	\draw[line width=0.4mm] (0,0) -- (0,10);
+		\node[align=center] at (-0.65,5.5) {\huge{$R_{\rm S}$}};
+	\draw[line width=0.4mm] (0,0) -- (3,6.325);
+		\node[align=center] at (2.1,3.5) {\huge{$R$}};
+	\node[align=right] at (-0.8,10.4) {\huge{Sun}};
+	\node[align=right] at (-0.65,-0.35) {\huge{GC}};
+
+	\node[align=center] at (0,-3) {\Huge{$\frac{R}{\sin l} = \frac{R_{\rm S}}{\cos\theta}$}};
+
+
+\end{tikzpicture}
+
+\end{document} 

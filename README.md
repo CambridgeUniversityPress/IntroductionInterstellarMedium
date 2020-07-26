@@ -117,3 +117,15 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 9.14 ([pdf](star_formation/disk_schematic.pdf))
 * Figure 9.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/IMLup.ipynb)) ([SPHERE jpg](star_formation/IMLup_SPHERE.jpg)) ([ALMA data](star_formation/IMLup_ALMA.fits)) ([pdf](star_formation/IMLup.pdf))
 
+
+#### Chapter 10
+* Figure 10.1 ([tex](galactic/galaxy_rotation.tex)) ([pdf](galactic/galaxy_rotation.pdf))
+* Figure 10.2 ([tex](galactic/dust_screen.tex)) ([pdf](galactic/dust_screen.pdf))
+* Figure 10.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/galaxy_HI_CO_profile.ipynb)) ([pdf](galactic/galaxy_HI_CO_profile.pdf))
+* Figure 10.4 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/HI_warp.ipynb)) ([pdf](galactic/HI_warp.pdf))
+* Figure 10.5 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/galaxy_HI_CO_spectrum.ipynb)) ([pdf](galactic/galaxy_HI_CO_spectrum.pdf))
+* Figure 10.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/rosette_HI_CO.ipynb)) ([pdf](galactic/rosette_HI_CO.pdf))
+* Figure 10.7 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/NII_allsky.ipynb)) ([pdf](galactic/NII_allsky.pdf))
+* Figure 10.8 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/HI_bubbles.ipynb)) ([pdf](galactic/HI_bubbles.pdf))
+* Figure 10.9 ([pdf](galactic/galaxy_schematic.pdf))
+

@@ -1,0 +1,56 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Dust screen method for determining
+% distances to clouds
+% (based on Figure 2 of Zucker+ 2019)
+%
+% random points code snippet from
+% https://tex.stackexchange.com/questions/145969/filling-specified-area-by-random-dots-in-tikz
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usepackage{pgfplots}
+\usetikzlibrary{shadings, patterns}
+
+\begin{document}
+
+%\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}
+[
+	scale=1.0, font=\sffamily,
+    declare function={a(\x)=0.05*\x;},
+]
+
+	% shaded regions
+	\begin{scope}
+		\shade[shading=axis,bottom color=white,top color=white,middle color = gray!30, shading angle=10] (0,0) rectangle (3.7,1.5);
+		\shade[shading=axis,bottom color=white,top color=white,middle color = gray!50, shading angle=0] (4,2.5) rectangle (8.5,5);
+	\end{scope}
+	\draw[thick, <->] (4.1,0.85) -- (4.1,3.75);
+	\node at (4.6, 2.25) {$\Delta A_{\rm V}$};
+
+	% draw random points
+	\draw plot [only marks, mark=*, mark size=0.5, domain=0.3:3.5, samples=75] (\x,{rnd*0.8+0.3+0.05*\x});
+	\draw plot [only marks, mark=*, mark size=0.5, domain=4.2:8.3, samples=200] (\x,{rnd*1.6+2.9});
+
+
+	% cloud
+	\draw[pattern=north west lines, draw=none] (3.71,0) rectangle (3.99,5);
+
+	% axes
+	\draw[thick, ->] (0,0) -- (8.5,0);
+	\draw[thick, ->] (0,0) -- (0,5);
+	\node at (3.85, -0.25) {$d_{\rm cloud}$};
+	\node at (7.7, -0.25) {Distance};
+	\node[rotate=90] at (-0.3, 4.2) {Extinction};
+
+
+\end{tikzpicture}
+
+\end{document} 
