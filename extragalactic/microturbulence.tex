@@ -1,0 +1,62 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% show a uniform vs microturbulent model for CO line profiles
+%
+% random points code snippet from
+% https://tex.stackexchange.com/questions/145969/filling-specified-area-by-random-dots-in-tikz
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usepackage{pgfplots}
+\usetikzlibrary{shadings, patterns}
+
+% adapted from http://pgfplots.net/tikz/examples/bell-curve/
+\pgfmathdeclarefunction{gauss}{2}{%
+  \pgfmathparse{1/(#2*sqrt(2*pi))*exp(-((x-#1)^2)/(2*#2^2))}%
+}
+
+% this is suggested from latex warning...?
+\pgfplotsset{compat=1.14}
+
+\begin{document}
+
+%\tikzstyle{background grid}=[draw, black!30,step=.5cm]
+%\begin{tikzpicture}[scale=1.0, font=\sffamily, show background grid]
+\begin{tikzpicture}
+[
+	scale=1.0, font=\sffamily,
+]
+
+	\draw[thick, fill=gray!20] (0,5) rectangle (4,9);
+	\draw[thick, ->] (5,5) -- (12,5);
+	\draw[thick, ->] (5,5) -- (5,9);
+	\draw[line width=1mm, gray!80] plot [mark=none, domain=5:12, samples=50, smooth] (\x, {5.04+3.7*(1-exp-(5*exp(-((\x-8.5)/0.75)^2});
+
+	\draw[thick] (0,0) rectangle (4,4);
+	\draw[gray!99] plot [only marks, mark=*, mark size=3, domain=0.2:3.8, samples=75] (\x,{0.2+rnd*3.6});
+	\draw[thick, ->] (5,0) -- (12,0);
+	\draw[thick, ->] (5,0) -- (5,4);
+	\node at (12.2,0) {$v$};
+	\node at (5,4.25) {$T_B$};
+
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+0.4*exp(-((\x-7.3)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+0.7*exp(-((\x-7.6)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+1.8*exp(-((\x-7.9)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+2.95*exp(-((\x-8.2)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+3.7*exp(-((\x-8.5)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+2.95*exp(-((\x-8.7)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+1.8*exp(-((\x-9.0)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+0.7*exp(-((\x-9.3)/0.1)^2});
+	\draw[line width=0.5mm, dashed, gray!50] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+0.4*exp(-((\x-9.6)/0.1)^2});
+	\draw[line width=1mm, gray!80] plot [mark=none, domain=5:12, samples=500] (\x, {0.03+3.7*exp(-((\x-8.5)/0.75)^2});
+
+
+
+\end{tikzpicture}
+
+\end{document} 
