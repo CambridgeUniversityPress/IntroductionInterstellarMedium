@@ -1,0 +1,37 @@
+\documentclass{standalone}
+%\pagenumbering{gobble}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% HI 21cm line schematic
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{tikz,xcolor}
+\usetikzlibrary{arrows,snakes}
+
+\begin{document}
+
+
+\begin{tikzpicture}[scale=1.0, font=\sffamily]
+
+	\draw[very thick] (0,0) ellipse (1 and 3);
+	\draw[thick, fill=black] (-0.3,-0.6) ellipse (0.03 and 0.09);
+        \node[align=center] at (0,0.85) {\huge{$A_s$}};
+
+	\draw[very thick, fill=gray!20] (16,0) ellipse (0.333 and 1);
+	\draw[thick, dotted] (-0.3,-0.6) -- (16,1);
+	\draw[thick, dotted] (-0.3,-0.6) -- (16,-1);
+	\node[align=center] at (16,0.35) {\Large{$A_t$}};
+        \node[align=center] at (3.5,-0.49) {\large{$\Omega_t$}};
+	\draw (3.8,-0.71) arc (-18:18:0.83);
+
+	\draw[thick, <->] (0,-3.3) -- (16,-3.3);
+        \node[align=center] at (8,-3.6) {\huge{\it d}};
+	\node[align=center] at (0,-3.6) {\Large source};
+	\node[align=center] at (16,-3.6) {\Large telescope};
+
+\end{tikzpicture}
+
+\end{document} 
