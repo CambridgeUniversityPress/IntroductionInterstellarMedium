@@ -6,7 +6,6 @@ Line drawings are created in [tikz](https://www.overleaf.com/learn/latex/TikZ_pa
 A remaining few others were created in [keynote](https://www.apple.com/keynote/) and are only available here as pdf.
 Use the command or control key when clicking on a link to open it in a new tab.
 
-
 #### Chapter 1 - Introduction
 * Figure 1.1 ([pdf](introduction/allsky.pdf))
 * Figure 1.2 ([tex](introduction/collision_time.tex)) ([pdf](introduction/collision_time.pdf))
