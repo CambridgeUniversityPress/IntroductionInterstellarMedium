@@ -7,17 +7,17 @@ A remaining few others were created in [keynote](https://www.apple.com/keynote/)
 Use the command or control key when clicking on a link to open it in a new tab.
 
 
-#### Chapter 1
+#### Chapter 1 -- Introduction
 * Figure 1.1 ([pdf](introduction/allsky.pdf))
 * Figure 1.2 ([tex](introduction/collision_time.tex)) ([pdf](introduction/collision_time.pdf))
 
 
-#### Chapter 2
+#### Chapter 2 -- Observations
 * Figure 2.1 ([tex](observations/radiation_schematic.tex)) ([pdf](observations/radiation_schematic.pdf))
 * Figure 2.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/observations/atmos_absorption.ipynb)) ([pdf](observations/atmos_absorption.pdf))
 
 
-#### Chapter 3
+#### Chapter 3 -- Essential Background Physics
 * Figure 3.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/background/maxwell.ipynb)) ([pdf](background/maxwell.pdf))
 * Figure 3.2 ([tex](background/radtrans1.tex)) ([pdf](background/radtrans1.pdf))
 * Figure 3.3 ([tex](background/einsteinAB.tex)) ([pdf](background/einsteinAB.pdf))
@@ -26,7 +26,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 3.6 ([tex](background/bohr.tex)) ([pdf](background/bohr.pdf))
 
 
-#### Chapter 4
+#### Chapter 4 -- Dust
 * Figure 4.1 ([jpg](dust/b68_multi_wavelength.jpg))
 * Figure 4.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/extinction.ipynb)) ([pdf](dust/extinction.pdf))
 * Figure 4.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dust/mie_Q.ipynb)) ([pdf](dust/mie_Q.pdf))
@@ -40,7 +40,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 4.11 ([pdf](dust/idp_sem.pdf))
 
 
-#### Chapter 5
+#### Chapter 5 -- Atomic Regions
 * Figure 5.1 ([tex](atomic/21cm.tex)) ([pdf](atomic/21cm.pdf))
 * Figure 5.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/HI_section.ipynb)) ([pdf](atomic/HI_section.pdf))
 * Figure 5.3 ([tex](atomic/HI_absorption.tex)) ([pdf](atomic/HI_absorption.pdf))
@@ -53,7 +53,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 5.12 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/atomic/depletion.ipynb)) ([data](atomic/savage_sembach_table5.txt)) ([pdf](atomic/depletion.pdf))
 
 
-#### Chapter 6
+#### Chapter 6 -- Ionized Regions
 * Figure 6.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/rosette.ipynb)) ([pdf](ionized/rosette.pdf))
 * Figure 6.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/dustyHII.ipynb)) ([pdf](ionized/dustyHII.pdf))
 * Figure 6.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/galactic_plane_continuum_21cm.ipynb)) ([data](g330to340.i.fits)) ([pdf](ionized/galactic_plane_continuum_21cm.pdf))
@@ -70,7 +70,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 6.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/ionized/heating_cooling.ipynb)) ([pdf](ionized/heating_cooling.pdf))
 
 
-#### Chapter 7
+#### Chapter 7 -- Molecular Regions
 * Figure 7.1 ([tex](molecules/molecular_transitions_schematic.tex)) ([pdf](molecules/molecular_transitions_schematic.pdf))
 * Figure 7.2 ([tex](molecules/CO_levels.tex)) ([pdf](molecules/CO_levels.pdf))
 * Figure 7.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/CO_rovib.ipynb)) ([data](molecules/Chandra_CO_EinsteinA.fits)) ([pdf](molecules/CO_rovib.pdf))
@@ -87,7 +87,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 7.14 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/molecules/W33A_ISO_SWS.ipynb)) ([data](molecules/W33A_ISO_SWS.fits)) ([pdf](molecules/W33A_ISO_SWS.pdf))
 
 
-#### Chapter 8
+#### Chapter 8 -- Dynamics
 * Figure 8.1 ([tex](dynamics/fluid_element.tex)) ([pdf](dynamics/fluid_element.pdf))
 * Figure 8.2 ([tex](dynamics/magnetic_field_lines.tex)) ([pdf](dynamics/magnetic_field_lines.pdf))
 * Figure 8.3 ([tex](dynamics/shock1.tex)) ([pdf](dynamics/shock1.pdf))
@@ -103,7 +103,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 8.13 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/dynamics/N44.ipynb)) ([data](dynamics/N44_DSS2_red.fits)) ([pdf](dynamics/N44.pdf))
 
 
-#### Chapter 9
+#### Chapter 9 -- Star Formation
 * Figures 9.1, 9.2, and 9.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/bonnor_ebert.ipynb)) ([pdf9.1](star_formation/bonnor_ebert_profiles.pdf)) ([pdf9.2](star_formation/bonnor_ebert_mass.pdf)) ([pdf9.3](star_formation/b68_profile.pdf))
 * Figure 9.4 ([tex](star_formation/infall_schematic.tex)) ([pdf](star_formation/infall_schematic.pdf))
 * Figures 9.5 and 9.6 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/infall.ipynb)) ([pdf9.5](star_formation/infall1.pdf)) ([pdf9.6](star_formation/infall2.pdf))
@@ -118,7 +118,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 9.15 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/star_formation/IMLup.ipynb)) ([SPHERE jpg](star_formation/IMLup_SPHERE.jpg)) ([ALMA data](star_formation/IMLup_ALMA.fits)) ([pdf](star_formation/IMLup.pdf))
 
 
-#### Chapter 10
+#### Chapter 10 -- The ISM on the Galactic Scale
 * Figure 10.1 ([tex](galactic/galaxy_rotation.tex)) ([pdf](galactic/galaxy_rotation.pdf))
 * Figure 10.2 ([tex](galactic/dust_screen.tex)) ([pdf](galactic/dust_screen.pdf))
 * Figure 10.3 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/galactic/galaxy_HI_CO_profile.ipynb)) ([data](galactic/galaxy_HI_CO_profile.tar.gz)) ([pdf](galactic/galaxy_HI_CO_profile.pdf))
@@ -130,7 +130,7 @@ Use the command or control key when clicking on a link to open it in a new tab.
 * Figure 10.9 ([pdf](galactic/galaxy_schematic.pdf))
 
 
-#### Chapter 11
+#### Chapter 11 -- The ISM in Other Galaxies and Beyond
 * Figure 11.1 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/extragalactic/M51_montage.ipynb)) ([data](extragalactic/M51_montage.tar.gz)) ([pdf](extragalactic/M51_montage.pdf))
 * Figure 11.2 ([notebook](https://mybinder.org/v2/gh/interstellarmedium/interstellarmedium.github.io/master?urlpath=lab/tree/extragalactic/M51_HI_CO_profile.ipynb)) ([data](extragalactic/M51_HI_CO_profile.tar.gz)) ([pdf](extragalactic/M51_HI_CO_profile.pdf))
 * Figure 11.3 ([tex](extragalactic/microturbulence.tex)) ([pdf](extragalactic/microturbulence.pdf))
